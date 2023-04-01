@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    min-width: 400px;
+    max-width: 400px;
+    background-color: rgba(52, 119, 122, 0.77);
+    padding: 20px 60px;
+    border-radius:15px;
+    box-shadow: 0 0 10px rgba(37, 36, 36, 0.422);
+    text-align: center;
+}
+.heading{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
+.input{
+    width: 90%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+}
+.info{
+    color: rgb(101, 99, 99);
+}
+.meaning-box{
+    margin-top: 20px;
+}
+.meaning-box table td{
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px 2px;
+}
+.word{
+    color: rgb(243, 244, 247);
+}
+.definition{
+    color: rgb(243, 244, 247);
+}
+.hide{
+    display: none;
+}
